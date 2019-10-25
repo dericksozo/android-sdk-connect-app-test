@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public String getUserToken() {
-                return "2";
+                return "joe@hello.com";
             }
         };
 
@@ -70,8 +70,6 @@ public class MainActivity extends AppCompatActivity {
         connectResult = ConnectResult.fromIntent(intent);
 
         connectButton.setConnectResult(connectResult);
-
-        Log.i("onNewIntent", "Hello");
     }
 
     @Override
